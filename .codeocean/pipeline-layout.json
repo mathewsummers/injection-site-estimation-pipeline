@@ -1,0 +1,69 @@
+{
+	"edges": [
+		{
+			"id": "xy-edge__data/input_files-capsule_aind_analysis_job_dispatch_3",
+			"source": "data/input_files",
+			"target": "capsule_aind_analysis_job_dispatch_3"
+		},
+		{
+			"id": "xy-edge__capsule_aind_analysis_job_dispatch_3-capsule_aind_analysis_wrapper_template_4",
+			"source": "capsule_aind_analysis_job_dispatch_3",
+			"target": "capsule_aind_analysis_wrapper_template_4"
+		},
+		{
+			"id": "xy-edge__capsule_aind_analysis_wrapper_template_4-results",
+			"source": "capsule_aind_analysis_wrapper_template_4",
+			"target": "results"
+		}
+	],
+	"nodes": [
+		{
+			"id": "results",
+			"position": {
+				"x": 910.5758461597501,
+				"y": 577.4155704397601
+			},
+			"selected": false,
+			"type": "results"
+		},
+		{
+			"id": "data/input_files",
+			"position": {
+				"x": 901.9091794930835,
+				"y": -101.99951278804153
+			},
+			"selected": true,
+			"type": "pipeline"
+		},
+		{
+			"data": {
+				"capsule_id": "d8136da9-6ebd-4881-acac-d054ca35d3ff"
+			},
+			"id": "capsule_aind_analysis_job_dispatch_3",
+			"position": {
+				"x": 865.2616256638681,
+				"y": 72.76021323168713
+			},
+			"selected": false,
+			"type": "capsule"
+		},
+		{
+			"data": {
+				"capsule_id": "cffff209-3aa7-43b1-80fc-96df26466e76"
+			},
+			"id": "capsule_aind_analysis_wrapper_template_4",
+			"position": {
+				"x": 863.3422007918914,
+				"y": 325.22886119243697
+			},
+			"selected": false,
+			"type": "capsule"
+		}
+	],
+	"timestamp": 1785434398286,
+	"viewport": {
+		"x": -24.116885070956982,
+		"y": 146.9130549103724,
+		"zoom": 0.4731158009927313
+	}
+}
